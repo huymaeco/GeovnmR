@@ -1,0 +1,15 @@
+Package: GeovnmR
+Type: Package
+Title: Vietnam GeoData 
+Version: 0.1.0
+Author: Huy Vu Le 
+Maintainer: Huy_maeco <vuhuy.le@depocen.com>
+Description: Provides a CSV data of any geo data for each district in Vietnam.
+License: GPL-3
+URL: https://github.com/huymaeco/GeovnmR
+Depends:
+    R (>= 3.5.0)
+Imports: dplyr, geodata, pRecipe, terra, sf
+Encoding: UTF-8
+Language: en-US
+RoxygenNote: 7.3.1

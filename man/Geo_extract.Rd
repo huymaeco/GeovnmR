@@ -7,6 +7,10 @@
 Geo_extract(ISO, Level, dataset, timestep)
 }
 \arguments{
+\item{ISO}{ISO3 code of your targeted country}
+
+\item{Level}{Level of your targeted ADM shape file}
+
 \item{dataset}{A string representing the dataset to be used (e.g., "cru-ts").}
 
 \item{timestep}{Time resolution for the data (e.g., "yearly", "monthly").}

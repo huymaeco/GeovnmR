@@ -4,7 +4,7 @@
 \alias{Geo_extract}
 \title{Geo_extract}
 \usage{
-Geo_extract(dataset, timestep)
+Geo_extract(ISO, Level, dataset, timestep)
 }
 \arguments{
 \item{dataset}{A string representing the dataset to be used (e.g., "cru-ts").}
@@ -12,11 +12,11 @@ Geo_extract(dataset, timestep)
 \item{timestep}{Time resolution for the data (e.g., "yearly", "monthly").}
 }
 \value{
-A data frame object that contains Vietnam geodata for the specified time period.
+A data frame/csv object that contains geodata for the specified time period.
 }
 \description{
-Provides a CSV data of any geo data for each district in Vietnam.
+Provides a CSV data of any geo data for every coumtry in the world.
 }
 \examples{
-data <- Geo_extract(dataset = "cru-ts", timestep = "yearly")
+data <- Geo_extract(ISO = "VNM", Level = "2", dataset = "cru-ts", timestep = "yearly")
 }
